@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header p{
+  background-color: #6bd9ea;
+  height: 60px;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+.content-div{
+  padding: 20px;
+}
+
+section{
+  margin: 10px 80px;
+
+}
+
+.text-content{
+  overflow:hidden;
+
+}
+
+
+.content-div, .content-form{
+  display: inline-block;
+  border: 1px solid black;
+  width: 48%;
+  height: 300px;
+}
+
+.content-form .text-content{
+  border: none;
+  border-bottom: 1px solid blue;
+}
+
+.contador{
+  
+  display: inline-block;
+}
