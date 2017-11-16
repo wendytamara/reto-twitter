@@ -17,6 +17,7 @@ header p{
   font-size: 2em;
   color: #fff;
   text-align: center;
+
 }
 
 .content-div{
@@ -35,7 +36,11 @@ section {
 .content{
   background-color: #fff;
   border: 1px solid black;
-  margin:  80px;  
+
+
+}
+main{
+  margin:  80px;
 }
 
 .content-div, .content-form{
@@ -53,6 +58,17 @@ section {
 }
 
 .contador{
-
   display: inline-block;
+}
+
+.btn{
+  background-color: #1da1f2;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 20%;
+  font-weight: bold;
+
+}
+#save{
+  color: #cacaca;
 }

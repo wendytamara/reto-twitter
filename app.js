@@ -1,3 +1,5 @@
+window.onload = function() {
+
 var boton = document.getElementById("save");
 var contTextArea = document.getElementById("insert-text");
 var containerNewParraf = document.getElementById("container");
@@ -11,8 +13,10 @@ boton.addEventListener("click", function(event) {
      div.appendChild(parrafo);
      containerNewParraf.appendChild(div);
      div.classList.add("content");
-
-
      contTextArea.value = "";
    }
+   else {
+     boton.removeEventListener("click", event);
+   }
 });
+};
