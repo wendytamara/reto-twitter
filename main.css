@@ -61,14 +61,21 @@ main{
   display: inline-block;
 }
 
-.btn{
+ .btnHability {
   background-color: #1da1f2;
-  padding: 5px 10px;
+  padding: 10px 15px;
   color: #fff;
   border-radius: 20%;
   font-weight: bold;
+  outline: none;
 
 }
-#save{
-  color: #cacaca;
+.btn{
+  background-color: #d9d0d0;
+  color: #b5b5b5;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20%;
+  font-weight: bold;
+  outline: none;
 }
