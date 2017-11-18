@@ -73,7 +73,7 @@ main{
 .btn{
   background-color: #d9d0d0;
   color: #b5b5b5;
-  border: none;
+  /* border: none; */
   padding: 10px 15px;
   border-radius: 20%;
   font-weight: bold;
